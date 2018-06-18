@@ -91,5 +91,20 @@ namespace CmsShoppingCart.Areas.Admin.Controllers
             // Redirect
             return RedirectToAction("AddPage");
         }
+
+        public ActionResult EditPage(int id)
+        {
+            // Declare pageVM
+
+            // Get the page
+
+            // Confirm page exists
+
+            // Initialize PageVm
+
+
+            // Return View with Model
+            return View();
+        }
     }
 }
